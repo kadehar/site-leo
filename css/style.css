@@ -1,0 +1,26 @@
+@import "normilize.css"
+
+img {
+    outline-style: dotted;
+    outline-color: red;
+}
+
+nav {
+    outline-color: skyblue;
+    outline-style: solid;
+}
+
+#tabs {
+    outline-color: snow;
+    outline-style: groove;
+}
+
+section {
+    outline-style: double;
+    outline-color: violet;
+}
+
+form {
+    outline-color: yellow;
+    outline-style: solid;
+}
