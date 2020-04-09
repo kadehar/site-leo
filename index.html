@@ -1,39 +1,84 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <title>Test</title>
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <meta charset="utf-8">
-    </head>
-    <body background="./images/background.png">
-        <header>
-            <img src="./images/logo.png" alt="logo">
-            <nav>
-                menu
-            </nav>
-        </header>
-        <main>
-            <div id="banner">
-                <img src="./images/banner.png" alt="banner">
-            </div>
-            <div id="tabs">
-                tabs
-            </div>
-            <img src="./images/screenshot.png" alt="screen">
-            <section>
-                <p>Why choose us</p>
-            </section>
-        </main>
-        <footer>
-            <form id="sign_in">
-                <input type="password">
-            </form>
-            <form id="subscribe">
-                <input type="submit">
-            </form>
-            <nav>
-                navigation
-            </nav>
-        </footer>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leo</title>
+</head>
+<body>
+    <header class="main-header">
+        <img src="images/logo-light.png" alt="Leo logo" class="logo">
+        <nav class="main-navigation">
+            <ul class="site-navigation">
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="visually-hidden">Welcome to Leo site!</h1>
+        <div class="banner">
+            <h2 class="visually-hidden">Try Demo</h2>
+            <img src="images/banner-icon.png" alt="Banner icon" class="banner-icon">
+            <p class="banner-text"><b>Introducing</b><br>Something hot...</p>
+            <span class="banner-left-arrow"> < </span>
+            <span class="banner-right-arrow"> > </span>
+            <a href="demo.html" class="banner-demo-button">Try Demo</a>
+        </div>
+        <section class="goods">
+            <h2 class="visually-hidden">Our products</h2>
+            <ul class="goods-list">
+                <li class="goods-item">Responsive Websites</li>
+                <li class="goods-item">e Commerce Websites</li>
+                <li class="goods-item">Daily blog Websites</li>
+                <li class="goods-item">Search based Websites</li>
+            </ul>
+        </section>
+        <section class="device">
+            <h2>Lorem Ipsum is simply dummy text</h2>
+            <img src="images/device-image.png" alt="Device" class="device-image">
+            <p class="device-text">
+                Lorem Ipsum is simply dummy text of the printing and typesettin
+            </p>
+        </section>
+        <section class="features">
+            <h2>Why choose us?</h2>
+            <img src="images/browser.png" alt="Browser" class="features-browser">
+            <ul class="features-list">
+                <li class="features-item">Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                <li class="features-item">Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                <li class="features-item">Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                <li class="features-item">Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                <li class="features-item">Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                <li class="features-item">Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="forms">
+        <<!--Тут должны быть формы Login и Subscribe, но я пока не научился их размечать-->
+    </footer>
+    <footer class="main-footer">
+        <section class="about">
+            <h2>About Us</h2>
+            <ul class="about-list">
+                <li class="about-item"><a href="about.html">About us</a></li>
+                <li class="about-item"><a href="whyus.html">Why us</a></li>
+                <li class="about-item"><a href="customer_stories.html">Customer Stories</a></li>
+                <li class="about-item"><a href="press_resources.html">Press Resources</a></li>
+                <li class="about-item"><a href="press_releases.html">Press Releases</a></li>
+                <li class="about-item"><a href="contactus.html">Contact us</a></li>    
+            </ul>
+        </section>
+        <section class="testimoanials">
+            <h2>Testimoanials</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and  typesetti</p>
+            <p>Lorem Ipsum is simply Owner,<br> Lorem Ipsum</p>
+        </section>
+        <div class="cite">
+            <img src="images/logo-dark.png" alt="Site logo" class="logo">
+            <cite class="cite-sign">© cssauthor.com</cite>
+        </div>
+    </footer>
+</body>
 </html>
