@@ -6,24 +6,24 @@
 </head>
 <body>
     <header class="main-header">
-        <img src="images/logo-light.png" alt="Leo logo" class="logo">
+        <img src="images/logo-light.png" alt="Leo" class="logo">
         <nav class="main-navigation">
-            <ul class="site-navigation">
-                <li><a href="solutions.html">Solutions</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul class="navigation-list">
+                <li class="navigation-item"><a href="solutions.html">Solutions</a></li>
+                <li class="navigation-item"><a href="products.html">Products</a></li>
+                <li class="navigation-item"><a href="portfolio.html">Portfolio</a></li>
+                <li class="navigation-item"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main class="container">
         <h1 class="visually-hidden">Welcome to Leo site!</h1>
-        <div class="banner">
+        <div class="banner slider">
             <h2 class="visually-hidden">Try Demo</h2>
             <img src="images/banner-icon.png" alt="Banner icon" class="banner-icon">
             <p class="banner-text"><b>Introducing</b><br>Something hot...</p>
-            <span class="banner-left-arrow"> < </span>
-            <span class="banner-right-arrow"> > </span>
+            <button class="banner-left-arrow"> < </button>
+            <button class="banner-right-arrow"> > </button>
             <a href="demo.html" class="banner-demo-button">Try Demo</a>
         </div>
         <section class="goods">
@@ -54,10 +54,24 @@
                 <li class="features-item">Lorem Ipsum is simply dummy text of the printing and typesettin</li>
             </ul>
         </section>
+        <section class="forms">
+            <form action="" class="login">
+                <fieldset>
+                    <legend>Member login</legend>
+                    <input type="text" title="User name">
+                    <input type="text" title="Password">
+                    <a href="auth.html">Log me in.</a>
+                </fieldset>
+            </form>
+            <form action="" class="subscribe">
+                <fieldset>
+                    <legend>Subscribe to our weekly newsletter</legend>
+                    <input type="email" title="email address">
+                    <a href="subscribe.html" class="subscribe-button">Subscribe</a>
+                </fieldset>
+            </form>
+        </section>
     </main>
-    <footer class="forms">
-        <<!--Тут должны быть формы Login и Subscribe, но я пока не научился их размечать-->
-    </footer>
     <footer class="main-footer">
         <section class="about">
             <h2>About Us</h2>
@@ -70,14 +84,29 @@
                 <li class="about-item"><a href="contactus.html">Contact us</a></li>    
             </ul>
         </section>
-        <section class="testimoanials">
-            <h2>Testimoanials</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and  typesetti</p>
-            <p>Lorem Ipsum is simply Owner,<br> Lorem Ipsum</p>
+        <section class="about">
+            <h2>About Us</h2>
+            <ul class="about-list">
+                <li class="about-item"><a href="about.html">About us</a></li>
+                <li class="about-item"><a href="whyus.html">Why us</a></li>
+                <li class="about-item"><a href="customer_stories.html">Customer Stories</a></li>
+                <li class="about-item"><a href="press_resources.html">Press Resources</a></li>
+                <li class="about-item"><a href="press_releases.html">Press Releases</a></li>
+                <li class="about-item"><a href="contactus.html">Contact us</a></li>    
+            </ul>
         </section>
-        <div class="cite">
-            <img src="images/logo-dark.png" alt="Site logo" class="logo">
-            <cite class="cite-sign">© cssauthor.com</cite>
+        <section class="slider">
+            <h2>Testimoanials</h2>
+            <button class="slider-left-arrow"> < </button>
+            <button class="slider-right-arrow"> > </button>
+            <p>Lorem Ipsum is simply dummy text of the printing and  typesetti</p>
+            <p>
+                <b>Lorem Ipsum is simply</b> <br><b>Owner, Lorem Ipsum</b>
+            </p>
+        </section>
+        <div class="copyright">
+            <img src="images/logo-dark.png" alt="Leo" class="logo">
+            <cite>&copy; cssauthor.com</cite>
         </div>
     </footer>
 </body>
